@@ -4,11 +4,18 @@
  url demo : https://dart-pusher-channels.ps4tek.com/dashboard
  Create a new user so as not to conflict with other users
  
- #api login 
+ # api login 
+ 
 https://dart-pusher-channels.ps4tek.com/api/login 
 
+email => String,
 
-#flutter 
+password => String,
+
+device_name => String
+
+
+# flutter 
 ```
                  authorizationEndpoint:
                       Uri.parse('https://dart-pusher-channels.ps4tek.com/api/broadcasting/auth'),
