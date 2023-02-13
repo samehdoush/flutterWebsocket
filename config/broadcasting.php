@@ -44,6 +44,9 @@ return [
                 'encryption_master_key_base64' => 'OGpfgK40Pfh+yljM43shgRH6nBtYSctnly/BX5HEYgw=',
             ],
             'client_options' => [
+                'verify' => false,
+                'verify_peer' => false,
+                'timeout' => 10,
                 // Guzzle client options: https://docs.guzzlephp.org/en/stable/request-options.html
             ],
         ],
