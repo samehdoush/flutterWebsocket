@@ -19,12 +19,13 @@ return new class extends Migration
             $table->string('name');
             $table->string('token', 64)->unique();
             $table->text('abilities')->nullable();
+            $table->json('mobile_app_details')->nullable();
             $table->timestamp('last_used_at')->nullable();
             $table->timestamp('expires_at')->nullable();
             $table->timestamps();
         });
     }
-
+    // ALTER TABLE `personal_access_tokens` ADD `mobile_app_details` LONGTEXT NULL DEFAULT NULL AFTER `abilities`;
     /**
      * Reverse the migrations.
      *
