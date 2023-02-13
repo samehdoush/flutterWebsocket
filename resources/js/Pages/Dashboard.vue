@@ -49,7 +49,7 @@ const sendevent = () => {
             bind : App\\Events\\UserTest <br>
             Host =   socketdemo.ps4tek.com <br>
             port =   443 <br>
-            PUSHER_APP_ID =   14755334 <br>
+            App Key =   30fad4c0b0b50a1a41ca <br>
             encryption_master_key_base64 => OGpfgK40Pfh+yljM43shgRH6nBtYSctnly/BX5HEYgw= <br>
             <v-textarea label="body event" v-model="form.body"></v-textarea>
             <v-btn @click.prevent="sendevent" :loading="form.processing" :disabled="form.processing">send event with
