@@ -18,6 +18,14 @@ device_name => String
 
 # flutter 
 ```
+   const hostOptions = .fromHost(
+      scheme: 'wss',
+      host: 'socketdemo.ps4tek.com',
+      key: '30fad4c0b0b50a1a41ca',
+      port: 443,
+    );
+
+/*...etc...*/
                  authorizationEndpoint:
                       Uri.parse('https://dart-pusher-channels.ps4tek.com/api/broadcasting/auth'),
                   headers: {
