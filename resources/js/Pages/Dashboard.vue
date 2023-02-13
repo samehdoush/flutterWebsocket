@@ -57,7 +57,7 @@ const sendevent = () => {
         </div>
         <div>
             <v-btn icon="mdi-refresh" @click="log = ''"></v-btn>
-            <v-textarea label="log channel and test receved" v-model="log"></v-textarea>
+            <v-textarea readonly label="log channel and test receved" v-model="log"></v-textarea>
         </div>
     </AuthenticatedLayout>
 </template>
