@@ -1,0 +1,38 @@
+
+.user-name-style {
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    text-align: start;
+}
+
+.phone-number-style{
+    display: flex;
+    align-items: center;
+    p {
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 10px;
+        text-align: start;
+        direction: ltr;
+    }
+    .whatsapp{
+        color: green;
+    }
+    .chat{
+        color: yellow;
+    }
+}
+
+.hight-in-this-account{
+    font-family: 'Cairo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+
+}

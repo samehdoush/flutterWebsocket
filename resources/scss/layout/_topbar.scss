@@ -1,0 +1,15 @@
+.verticalLayout {
+  .v-app-bar.v-toolbar.v-topbar {
+    margin-left: 265px;
+    width: calc(100% - 265px);
+  }
+}
+
+
+.header-style{
+  width: 100%;
+}
+.header-spaces{
+  display: flex;
+  justify-content:space-between ;
+}
