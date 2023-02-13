@@ -7,6 +7,7 @@
  # api login 
  
 https://dart-pusher-channels.ps4tek.com/api/login 
+method : post
 
 email => String,
 
