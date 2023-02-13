@@ -19,7 +19,7 @@ class ProfileController extends Controller
      */
     public function sendevent(Request $request): RedirectResponse
     {
-        broadcast(new UserTest($request->all()));
+        broadcast(new UserTest($request->all(),request()->user()->id));
 
         return back();
     }

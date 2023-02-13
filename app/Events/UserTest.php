@@ -21,7 +21,7 @@ class UserTest implements ShouldBroadcastNow
      *
      * @return void
      */
-    public function __construct(public array $data)
+    public function __construct(public array $data,public int $id)
     {
         //
     }
@@ -33,6 +33,6 @@ class UserTest implements ShouldBroadcastNow
      */
     public function broadcastOn()
     {
-        return new EncryptedPrivateChannel('user-test');
+        return new EncryptedPrivateChannel('user-test-'.$this->id);
     }
 }
